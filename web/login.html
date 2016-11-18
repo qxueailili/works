@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	body{text-align: center;background: url(./images/222.jpg);}
+	#login{border: 2px solid #EFEBE2;width: 300px;height: 200px;background-color:#EFEBE2;margin:150px auto;}
+	#btn{width: 70px;height: 30px;background-color: #ccc;position: relative;left:-10px;top: 20px;}
+	#dl{		border: 2px solid #ccc;	width: 100px;height: 30px;line-height: 30px;border:1px solid blue;border-radius: 8px;
+	position: relative;
+	left: 180px;
+	top: -10px;	}
+	#dl a{
+		text-decoration: none;}
+	#d2{
+		width: 80px;
+		height: 30px;
+		line-height: 30px;
+		position: relative;
+		top: -42px;
+		border: 1px solid black;
+		border-radius: 8px;	}
+	#d2 a{
+		text-decoration: none;
+	}
+</style>
+<body>
+	<form>
+		<div id="login">
+			<h1> 亲，请登录！</h1>
+			<label for="user">用 &nbsp;&nbsp;户: </label>
+			<input type="user" name="user" id="user">
+			<br><br/>
+			<label for="password">密 &nbsp;&nbsp;码:</label>
+			<input type="password" name="password" id="password">
+			<br/><br/>
+			<input id="btn" type="button" value="登录" >
+			<div id="dl"><a href="./admin/Public/login.php">管理员登录</a></div>
+			<div id="d2"><a href="index.php">返回主页</a></div>
+		</div>
+		
+</form>
+		<script src="./libs/jquery-1.4.3.js"></script>
+		<script src="./js/login.js"></script>
+</body>
+</html>
