@@ -1,0 +1,9 @@
+[ 2016-11-09T16:30:13+08:00 ] ::1 /bookstore/index.php/Home/Index/child.html
+ERR: 模板不存在:./Application/Home/View/Index/child.html
+
+[ 2016-11-09T16:30:17+08:00 ] ::1 /bookstore/index.php/Home/Index/child.html
+ERR: 模板不存在:./Application/Home/View/Index/child.html
+
+[ 2016-11-09T16:30:26+08:00 ] ::1 /bookstore/index.php/Home/Index/child.html
+ERR: 模板不存在:./Application/Home/View/Index/child.html
+

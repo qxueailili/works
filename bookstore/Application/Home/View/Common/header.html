@@ -1,0 +1,148 @@
+<!-- header.html -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bookstore</title>
+	<link rel="stylesheet" href="__CSS__/header.css">
+	<link rel="stylesheet" href="__CSS__/footer.css">
+	<link rel="stylesheet" href="__CSS__/index.css">
+	<link rel="stylesheet" href="__CSS__/details.css">
+</head>
+<body>
+	<div class="meun">
+		<div class="head_meunl">
+			<ul>
+				<li class="deliver">
+					<div class="div1">
+						送至:北京
+						<span class="xiaoyuhao">></span>
+					</div>
+					<ul class="location" id="rt">
+						<li><a href="">北京</a></li>
+						<li><a href="">天津</a></li>
+						<li><a href="">杭州</a></li>
+						<li><a href="">西安</a></li>
+						<li><a href="">上海</a></li>
+						<li><a href="">广州</a></li>
+						<li><a href="">深圳</a></li>
+						<li><a href="">厦门</a></li>
+						<li><a href="">南昌</a></li>
+						<li><a href="">贵阳</a></li>
+						<li><a href="">铜川</a></li>
+						<li><a href="">宝鸡</a></li>
+						<li><a href="">安康</a></li>
+						<li><a href="">渭南</a></li>
+						<li><a href="">延安</a></li>
+						<li><a href="">榆林</a></li>
+						<li><a href="">咸阳</a></li>
+						<li><a href="">成都</a></li>
+						<li><a href="">重庆</a></li>
+						<li><a href="">安阳</a></li>
+						<li><a href="">郑州</a></li>
+						<li><a href="">西宁</a></li>
+						<li><a href="">大庆</a></li>
+						<li><a href="">许昌</a></li>
+						<li><a href="">太原</a></li>
+						<li><a href="">江苏</a></li>
+						<li><a href="">海南</a></li>
+						<li><a href="">三亚</a></li>
+						<li><a href="">四川</a></li>
+						<li><a href="">湖南</a></li>
+						<li><a href="">湖北</a></li>
+						<li><a href="">新疆</a></li>
+						<li><a href="">西藏</a></li>
+						<li><a href="">吉林</a></li>
+						<li><a href="">辽宁</a></li>
+						<li><a href="">长春</a></li>
+						<li><a href="">四平</a></li>
+						<li><a href="">安徽</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="head_meunr">
+			<ul class="tou">
+				<li>欢迎光临当当，</li>
+				<li>
+					<?php 
+						if (isset($_SESSION["user"])) {
+							echo $_SESSION["user"];
+						}else{
+					 ?>
+					 请<a href="{:U('User/login')}">登录</a>
+					<?php  
+						}
+					?>
+				</li>
+				<li>
+					<?php 
+						if (isset($_SESSION["user"])) {
+					?>欢迎
+							<a href="{:U('User/logoff')}">注销</a>
+					<?php 
+						}else{ 
+					?>
+							<a href='{:U('User/reg')}'>成为会员|</a>
+					<?php
+						}
+					 ?> 
+				</li>
+				<li>&nbsp;原创征文|</li>
+				<li>&nbsp;手机当当|</li>
+				<li class="mydang">
+					<div class="mydd">
+						&nbsp;我的当当
+						<span class="xiaoyuhao">></span>
+					</div>
+					<div class="mydangdang">
+						<ul class="wodedd">
+							<li>积分抵现</li>
+							<li>我的收藏</li>
+							<li>我的余额</li>
+							<li>我的评论</li>
+							<li>礼券/礼品卡</li>
+							<li>电子书架</li>
+						</ul>
+					</div>
+				</li>
+				<li>企业采购</li>
+				<li>客户服务</li>
+			</ul>
+		</div>
+		<div class="head_bottom">
+			<div class="bleft">
+				<a href="{:U('Index/index')}"><div class="pic"></div></a>
+				<div class="search">
+					<input type="search" id="search" placeholder="搜搜有惊喜"><input type="button" value="搜索" id="btn">
+				</div>
+				<div class="car">
+					<span class="text">我的购物车</span>
+				</div>
+				<div class="dingdan">
+					<span class="text1">我的订单</span>
+				</div>
+				<span class="resou">热搜：家居家具  满200减100 光芒记 100元现金券免费领 荒野求生 海外购</span>
+			</div>
+			<div class="heng">
+				<div class="classify">全部商品分类</div>
+				<ul>
+					<li><a href="">200减100</a></li>
+					<li><a href="">图书</a></li>
+					<li><a href="">电子书</a></li>
+					<li><a href="">原创文学</a></li>
+					<li><a href="">服装</a></li>
+					<li><a href="">运动户外</a></li>
+					<li><a href="">孕婴童</a></li>
+					<li><a href="">家居</a></li>
+					<li><a href="">当当优品</a></li>
+					<li><a href="">特产</a></li>
+					<li><a href="">海外购</a></li>
+					<li><a href="">电器城</a></li>
+				</ul>
+				<hr class="hr1">
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+

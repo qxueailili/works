@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:#F6F9FB;
+}
+#login{
+	height: 100%;
+	width: 66%;
+	/*border: 1px solid red;*/
+	margin: 20px auto;
+	overflow: hidden;
+}
+#header{
+	height: 20%;
+	width: 100%;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+#logo{
+	width: 30%;
+	margin-top:30px;
+	margin-left: 20px;	
+}
+.logo{
+	position: absolute;
+	right: 240px;
+	top: 30px;
+}
+a span{
+	font-size: 12px;
+}
+ul li a{
+	margin: 8px;
+	text-decoration: none;
+}
+.logo1{
+	position: absolute;
+	right: 245px;
+	margin-top: -5px;
+}
+ul li a span{
+	color:#787878; 
+}
+ul li a span:hover {
+	text-decoration:underline;
+}
+.clear{
+	clear: both;
+}
+.notice{
+	width: 52%;
+	/*height: 30px;*/
+}
+.notice a{
+	text-decoration: none;
+}
+.notice{
+	display: inline-block;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #FEDBD1;
+	background-color: #FEF7F5;
+	color: #787878;
+	font-size: 11px;
+	margin: 30px 420px;
+}
+.container{
+	width: 100%;
+	height: 410px;
+	margin:-22px 0 0 0;
+	/*border: 1px solid yellow;*/
+	background-color: #FFFFFF;
+}
+.ad{
+	float: left;
+	width: 45%;
+	margin: 13px;
+}
+.sub{
+	width:42%;
+	float: right;
+	position: relative;
+	/*border: 1px solid red;*/
+}
+.user input{
+	height: 32px;
+	width: 300px;
+	margin: 45px 0 0 20px;
+}
+.img1{
+	width: 150px;
+	height: 30px;
+	margin-left: 180px;
+}
+.pass input{
+	height: 32px;
+	width: 300px;
+	margin: 45px  0 0 20px;
+}
+.notice1{
+	margin-left: 20px;
+}
+.span1{
+	font-size: 13px;
+	color: #7B7B77;
+}
+.notice1 a {
+	/*background-color: blue;*/
+	text-decoration: none;
+}
+.mm{
+	color: blue;
+	
+}
+#_login a{
+	text-decoration: none;
+}
+#_login{
+	width: 310px;
+	height: 45px;
+	margin-left: 17px;
+	margin-top: 10px;
+	background-color: #FF2832;
+	border-radius:10px;
+	border: 0;
+}
+#_login span{
+	font-size: 25px;
+	color: white;
+}
+.container li{
+	list-style: none;
+	float: left;
+	margin-top: 8px;
+	margin-left: 110px;
+}
+.container li span{
+	font-size: 12px;
+	color: #7B7B77;
+}
+.container li a{
+	text-decoration: none;
+}
+.container li a span{
+	margin-left: 50px;
+}
+.footer{
+	height: 120px;
+	width: 100%;
+	margin-top: 45px;
+	margin-left: 130px;
+	/*background-color: red;*/
+}
+.footer_t span{
+	font-size: 12px;
+	color:#666666; 
+	
+}
+.footer_t a{
+	text-decoration: none;
+	color: #666666;
+}
+.footer_t a :hover{
+	color: orange;
+	text-decoration: underline;
+}
+.sep{
+	padding: 10px;
+}
+.icon{
+
+	display: inline-block;
+	margin:10px 0 0 170px; 
+}
+.icon a{
+	margin: 4px;
+}
+.span2{
+	display: hidden;
+	font-size: 12px;
+	color:#7B7B77;
+}

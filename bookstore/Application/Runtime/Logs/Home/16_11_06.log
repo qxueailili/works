@@ -1,0 +1,7 @@
+[ 2016-11-06T16:23:53+08:00 ] ::1 /bookstore/index.php/Home/User/reg
+ERR: 非法数据对象！
+
+[ 2016-11-06T17:35:34+08:00 ] ::1 /bookstore/index.php/Home/User/reg
+ERR: 1146:Table 'bookstore.u' doesn't exist
+ [ SQL语句 ] : INSERT INTO `U` () VALUES ()
+

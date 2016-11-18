@@ -1,0 +1,211 @@
+/*index.css*/
+
+/*--------------------------------三级导航栏------------------------------------------*/
+.nav{
+	width: 200px;
+	background-color: white;
+	position: relative;
+	left: 70px;
+	top: -140px;
+}
+
+.nav>ul{
+	position: relative;
+	top: 0px;
+}
+
+.nav>ul>li{
+	list-style: none;
+	padding: 10px 20px;
+	font-size: 14px;
+}
+.ul{
+  border: 1px solid #ccc;
+  background-color: #E9FFE9;
+  /*font-style:white;*/
+}
+
+.nav>ul>li>a{
+  color:#4f4f4f;
+	text-decoration: none;
+}
+
+.nav1 ,.nav2,.nav3,.nav4,.nav5,.nav6,.nav7,.nav8,.nav9,.nav10,.nav11,.nav12,.nav13,.nav14,.nav15{
+	width: 1000px;
+	height: 540px;
+	border:2px solid #ff2832;
+	border-left: none;
+	position: absolute;
+	left: 200px;
+	top: -1px;
+	display: none;
+	z-index: 1;
+	background-color: white;
+}
+
+.nav1>ul>li{					/* 二级菜单*/
+	list-style: none;
+	padding: 20px 0px 0px 20px;
+	border-bottom: 1px dashed #00a38b;
+}
+
+.nav1>ul>li>a{                        
+	color: #ff2832;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.nav1 ul li span{
+	padding-left: 30px;
+}
+
+.nav1 ul li span a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #4f4f4f;
+}
+.content{
+  margin-top: -140px;
+}
+.marquee{
+  color: green;
+  position: absolute;
+  top: 750px;
+}
+.clear{
+  clear: both;
+}
+.hr1{
+  width: 100%;
+  border: 1px solid red;
+  margin-bottom: -7 px;
+}
+
+/*---------------------------轮播----------------------------*/
+* { 
+  padding: 0px; 
+  margin: 0px; 
+ } 
+ a { 
+  text-decoration: none; 
+ } 
+ ul { 
+  list-style: outside none none; 
+ } 
+
+.slider{
+	left: 280px;
+	top: 145px;
+	z-index: 0;
+  text-align: center; 
+  margin: 30px auto; 
+  position: absolute; 
+}
+
+ .slider, .slider-panel img, .slider-extra { 
+  width: 850px; 
+  height: 350px; 
+ }
+
+ .slider-panel, .slider-nav, .slider-pre, .slider-next { 
+  position: absolute; 
+  z-index: 8; 
+ } 
+ .slider-panel { 
+  position: absolute; 
+ } 
+ .slider-panel img { 
+  border: none; 
+ } 
+ .slider-extra { 
+  position: relative; 
+ } 
+ .slider-nav { 
+  margin-left: -51px; 
+  position: absolute; 
+  left: 50%; 
+  bottom: 4px; 
+ } 
+ .slider-nav li { 
+  background: #3e3e3e; 
+  border-radius: 50%; 
+  color: #fff; 
+  cursor: pointer; 
+  margin: 0 2px; 
+  overflow: hidden; 
+  text-align: center; 
+  display: inline-block; 
+  height: 18px; 
+  line-height: 18px; 
+  width: 18px; 
+ } 
+ .slider-nav .slider-item-selected { 
+  background: blue; 
+ } 
+ .slider-page a{ 
+  background: rgba(0, 0, 0, 0.2); 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000); 
+  color: #fff; 
+  text-align: center; 
+  display: block; 
+  font-family: "simsun"; 
+  font-size: 22px; 
+  width: 28px; 
+  height: 62px; 
+  line-height: 62px; 
+  margin-top: -31px; 
+  position: absolute; 
+  top: 50%; 
+ } 
+ .slider-page a:hover { 
+  background: rgba(0, 0, 0, 0.4); 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000); 
+ } 
+ .slider-next { 
+  left: 100%; 
+  margin-left: -28px; 
+ } 
+
+
+ /*-----------------------------------------------------------------*/
+ .right{
+ 	width: 20px;
+ 	height: 550px;
+ 	/*position: relative;*/
+  float: left;
+ 	left: 70px;
+ 	/*top: -1130px;*/
+ }
+
+ .righttop{
+  width: 100%;
+ }
+ .rightmiddle{
+  width: 100%;
+  height: 200px;
+ }
+ .rightbottom{
+  height: 150px;
+  width: 100%;
+  background-color: #ccc;
+ }
+
+ .ad{
+  float: left;
+ }
+
+.ad ul{
+  float: left;
+  margin-top: 15px;
+}
+
+ .ad ul li{
+  list-style: none;
+  float: left;
+  margin-left:50px;
+ }
+
+
+
+
